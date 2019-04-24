@@ -1,0 +1,188 @@
+body, html {
+    height:100%;
+    width: 100%;
+
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+/* Site Background */
+.bg-image {
+    height:100%; 
+    background-color: #7F7F7F;
+    background-image: url("../images/advisory.png");
+}
+
+.header {
+    height: 60px;
+    background-color: #404040;
+    border-bottom: 5px solid #E5E5E5;
+    text-align: center;
+    box-shadow: 0px 6px 20px 1px #8f01a2;
+}
+
+.header p {
+    color: #FFFFFF;
+    padding-top: 4px;
+    font-size: 13px;
+}
+
+.powerbar {
+    width: 950px;
+    height: 30px;
+    background-color: rgba(143, 1, 162, 0.5);
+    display: inline-block;
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+.powerbar span {
+    color: #E5E5E5;
+    margin-top: 7px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.score {
+    margin-right: 4px;
+}
+
+.player {
+    margin-right: 35px
+}
+
+.tenwins {
+    width: 10%;
+    height: 100%;
+    /* background-color: rgba(223, 1, 162); */
+    border-radius: 20px 0px 0px 20px;
+    float: left;
+    border-right: #404040 1px solid;
+}
+
+.thirtywins {
+    width: 20%;
+    height: 100%;
+    /* background-color: rgba(143, 1, 162); */
+    float: left;
+    border-right: #404040 1px solid;
+}
+
+.hundredwins {
+    width: 30%;
+    height: 100%;
+    /* background-color: rgba(223, 1, 162); */
+    float: left;
+    border-right: #404040 1px solid;
+}
+
+.beatgame {
+    width: 40%;
+    height: 100%;
+    /* background-color: rgba(143, 1, 162); */
+    float: left;
+    border-radius: 0px 20px 20px 0px;
+    border-right: #404040 1px solid;
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 646px;
+    background-color: #E5E5E5;
+    border-bottom: black solid 5px;
+    box-shadow: 0px 21px 25px 5px #8f01a2
+}
+
+.container img {
+    display: block;
+    width: 960px;   
+}
+
+.leftcol {
+    float: left;
+    height: 341px;
+    width: 30%;
+}
+
+.leftcol img {
+    width: auto;
+    height: 100%;
+    padding-left: 120px;
+}
+
+.rightcol {
+    float: left;
+    height: 341px;
+    width: 70%;
+}
+
+#player1, #score1 {
+    color: gold;
+}
+
+#player2, #score2 {
+    color: silver;
+}
+
+#player3, #score3 {
+    color: #cd7f32;
+}
+
+#player4, #score4 {
+    color: rgb(255,255,0, .5)
+}
+
+#player5, #score5 {
+    color:rgb(0,128,0, .5)
+}
+
+#player6, #score6 {
+    color:rgb(255,192,203, .5)
+}
+
+@font-face {
+    font-family: maintext;
+    src: url(STYLEWARS.ttf);
+}
+
+@font-face {
+    font-family: hangletters;
+    src: url(PhillySans.otf);
+}
+
+.textbox {
+    margin: 20px 20px 20px 20px;
+}
+
+.topline p {
+    display: inline;
+    font-family: maintext;
+    font-size: 40px;
+}
+
+.topline h1 {
+    display: inline;
+    font-family: maintext;
+    font-size: 40px;
+}
+
+.play h2{ 
+    font-family: maintext;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.play p {
+    font-family: maintext;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#getlost h3 {
+    font-family: hangletters;
+    font-size: 60px;
+}

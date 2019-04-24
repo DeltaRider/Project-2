@@ -1,0 +1,23 @@
+DROP DATABASE IF EXISTS dummy_games_db;
+
+CREATE DATABASE dummy_games_db;
+
+USE dummy_games_db;
+
+CREATE TABLE users(
+	id INT NOT NULL AUTO_INCREMENT,
+	auth INT NOT NULL,
+	username VARCHAR(15) NOT NULL UNIQUE,
+	email VARCHAR(255) NOT NULL UNIQUE,
+	password_hash VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE scores(
+	id INT NOT NULL AUTO_INCREMENT,
+	score INT NOT NULL,
+	game VARCHAR(255) NOT NULL,
+	player VARCHAR(255) NOT NULL,
+    FOREIGN KEY (player) REFERENCES users(username),
+	PRIMARY KEY (id)
+);

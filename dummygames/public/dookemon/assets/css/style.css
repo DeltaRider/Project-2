@@ -1,0 +1,481 @@
+body, html {
+    height:100%;
+    width: 100%;
+
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+/* Site Background */
+.bg-image {
+    height:100%; 
+    background-color: #005B6E;
+    background-image: url("../images/dookemon-logo.png");
+}
+
+.header {
+    height: 60px;
+    background-color: #223155;
+    border-bottom: 5px solid black;
+    text-align: center;
+    box-shadow: 0px 6px 20px 1px #00C3EE;
+}
+
+.header p {
+    color: #FFFFFF;
+    padding-top: 22px;
+    font-size: 13px;
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 646px;
+    background-color: #E5E5E5;
+    border-right: black solid 2px;
+    border-left: black solid 2px;
+    border-bottom: black solid 2px;
+    box-shadow: 0px 21px 25px 5px #00C3EE;
+    background-image: url("../images/game-board.png");
+    background-size: cover;
+    position: relative;
+}
+
+@font-face {
+    font-family: maintext;
+    src: url(chalk-up.ttf);
+}
+
+.topbox {
+    width: 960px;
+    padding: 10px 30px 0px 30px;
+    height: 130px;
+}
+
+.toptext {
+    display: inline;
+    font-family: maintext;
+    line-height: 18px;
+}
+
+.bottombox {
+    width: 960px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 130px;
+    margin-top: 10px;
+}
+
+.bottomtext {
+    font-family: maintext;
+    line-height: 18px;
+}
+
+.topboxTwo {
+    width: 960px;
+    padding: 10px 30px 0px 30px;
+    height: 130px;
+    text-align: center;
+}
+
+.bottomboxTwo {
+    width: 960px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 130px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.toptextTwo {
+    font-family: maintext;
+    font-size: 75px;
+    margin-top: 20px;
+}
+
+.bottomtextTwo {
+    font-family: maintext;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.midbox {
+    width: 955px;
+    height: 355px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.choice {
+    width: 233px;
+    height: 335px;
+    float: left;
+    border-radius: 25px;
+}
+
+.choice img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.oppContain {
+    margin-left: 118px;
+}
+
+.opponents {
+    width: 233px;
+    height: 335px;
+    float: left;
+    border-radius: 25px;
+}
+
+.opponents img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.opponentsTwo {
+    width: 356px;
+    height: 335px;
+    float: left;
+    border-radius: 25px;
+}
+
+.opponentsTwo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.opponentsThree {
+    width: 711px;
+    height: 335px;
+    float: left;
+    border-radius: 25px;
+}
+
+.opponentsThree img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.playContain {
+    margin-left: 235px;
+}
+
+.regPlay {
+    width: 233px;
+    height: 335px;
+    float: left;
+    border-radius: 25px;
+    background-color: #00C3EE;
+}
+
+.regPlay img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bullpen {
+    height: 150px;
+    background-color: #666666;
+    margin-top: 10px;
+}
+
+.attack {
+    position:absolute;
+    left: 90px;
+    bottom: 300px;
+}
+
+.attackTwo {
+    position:absolute;
+    left: 90px;
+    bottom: 300px;
+}
+
+.attackThree {
+    position:absolute;
+    left: 90px;
+    bottom: 300px;
+}
+
+.trophy {
+    position:absolute;
+    left: 90px;
+    bottom: 300px;
+}
+
+.trophies {
+    position: relative;
+}
+
+.trophies img {
+    height: 70px;
+}
+
+.bigTrophy {
+    position: relative;
+}
+
+.bigTrophy img {
+    height: 540px;
+}
+
+.bigTrophy p {
+    font-family: maintext;
+    font-size: 20px;
+
+}
+
+.lost {
+    position: absolute;
+    left: 140px;
+    top: 234px;
+}
+
+.lost p {
+    font-family: maintext;
+    font-size: 20px;
+}
+
+.lost h5 {
+    font-family: maintext;
+    font-size: 40px;
+}
+
+#pone{
+    position: absolute;
+    left: 245px;
+    top: 445px;
+    color: white;
+}
+
+#ptwo{
+    position: absolute;
+    left: 250px;
+    top: 465px;
+    color: white;
+}
+
+.bigTrophy h5 {
+    font-family: maintext;
+    position: absolute;
+    font-size: 40px;
+    left: 250px;
+    top: 397px;
+    color: white;
+}
+
+#bigT {
+    position: absolute;
+    left: 114px;
+    top: 42px; 
+}
+
+#trophyOne {
+    position: absolute;
+    left: 76px;
+    top: 42px;
+    
+}
+
+#trophyTwo {
+    position: absolute;
+    left: 76px;
+    top: 259px;
+    
+}
+
+#trophyThree {
+    position: absolute;
+    left: 76px;
+    top: 478px;
+    
+}
+
+#trophyFour {
+    position: absolute;
+    left: 646px;
+    top: 42px;
+    
+}
+
+#trophyFive {
+    position: absolute;
+    left: 646px;
+    top: 259px;
+    
+}
+
+#trophySix {
+    position: absolute;
+    left: 646px;
+    top: 478px;
+    
+}
+
+#charCash {
+    position:absolute;
+    right: 518px;
+    bottom: 438px;
+    font-size: 20px;
+}
+
+#oppCash {
+    position:absolute;
+    right: 285px;
+    bottom: 438px;
+    font-size: 20px;
+}
+
+#cshadow:hover {
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px 5px rgba(255, 90, 56);
+}
+
+#dshadow:hover {
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px 5px rgba(57, 181, 74);
+}
+
+#hshadow:hover {
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px 5px rgba(255, 123, 172);
+}
+
+#pshadow:hover {
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px 5px rgb(41, 171, 226);
+}
+
+.popup-overlay{
+    /*Hides pop-up when there is no "active" class*/
+    visibility:hidden;
+    position:absolute;
+    background-color: #b0d5ef;
+    background-image: url("../images/gaming-pattern.png");
+    background-size: 462px auto;
+    background-repeat: repeat;
+    border:1px solid black;
+    width:80%;
+    height:100%;
+    left:10%; 
+  }
+
+  .popup-overlay.active{
+    /*displays pop-up when "active" class is present*/
+    visibility:visible;
+    text-align:center;
+  }
+
+  .popup-content {
+    /*Hides pop-up content when there is no "active" class */
+   visibility:hidden;
+   position: relative;
+  }
+
+  .popup-content.active {
+    /*Shows pop-up content when "active" class is present */
+    visibility:visible;
+    position: relative;
+  }
+
+  .choose, .exit, .chooseTwo, .newgame, .leave {
+    display:inline-block;
+    vertical-align:middle;
+    border-radius:30px;
+    margin:.20rem;
+    font-size: 1rem;
+    color:#666666;
+    background:   #ffffff;
+    border:1px solid #666666;
+    text-decoration: none; 
+  }
+  
+  .choose:hover, .exit:hover, .chooseTwo:hover, .newgame:hover, .leave:hover {
+    border:1px solid #666666;
+    background:#666666;
+    color:#ffffff;
+    text-decoration: none;
+  }
+
+  .newgame {
+    position: absolute;
+    left: 255px;
+    top: 410px;
+  }
+
+  .leave {
+    position: absolute;
+    left: 417px;
+    top: 410px;
+}
+
+.card img {
+    width: auto;
+    max-height: 600px;   
+}
+
+.header {
+    height: 60px;
+    text-align: center;
+}
+
+.header p {
+    color: #FFFFFF;
+    padding-top: 4px;
+    font-size: 13px;
+}
+
+.powerbar {
+    width: 950px;
+    height: 30px;
+    background-color: rgba(0,91,110, 0.5);
+    display: inline-block;
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+.powerbar span {
+    color: #E5E5E5;
+    margin-top: 7px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.score {
+    margin-right: 4px;
+}
+
+.player {
+    margin-right: 35px
+}
+
+
+#player1, #score1 {
+    color: gold;
+}
+
+#player2, #score2 {
+    color: silver;
+}
+
+#player3, #score3 {
+    color: #cd7f32;
+}
+
+#player4, #score4 {
+    color: rgb(255,255,0, .5)
+}
+
+#player5, #score5 {
+    color:rgb(0,128,0, .5)
+}
+
+#player6, #score6 {
+    color:rgb(255,192,203, .5)
+}

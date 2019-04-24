@@ -1,0 +1,289 @@
+@font-face {
+    font-family: headerFont;
+    src: url(../fonts/drip.ttf);
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    border-bottom: 5px solid aliceblue;
+}
+
+.header h1 {
+    font-family: headerFont;
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+}
+
+.games {
+    float: left;
+    width: 50%;
+    margin-top: 15px;
+    height: 100%;
+    padding-bottom: 80px;
+}
+
+.pics {
+    text-align: center;
+}
+
+.pics img {
+    width: 80%;
+}
+
+#purpHover img:hover {
+    box-shadow: 0px 0px 20px purple;
+}
+
+#blueHover img:hover {
+    box-shadow: 0px 0px 20px turquoise;
+}
+
+.games h2 {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.scores h3 {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.center {
+    text-align: center;
+    color: aliceblue;
+}
+
+.left, .right, .leftTwo, .rightTwo {
+    display: inline-block;
+    text-align: left;
+}
+
+.player {
+    margin-left: 5px;
+}
+
+.marg {
+    margin-bottom: 3px;
+}
+
+.marg #player3 {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#player1, #score1 {
+    color: gold;
+}
+
+#player2, #score2 {
+    color: silver;
+}
+
+#player3, #score3 {
+    color: #cd7f32;
+}
+
+#player4, #score4 {
+    color: rgb(255,255,0, .5)
+}
+
+#player5, #score5 {
+    color:rgb(0,128,0, .5)
+}
+
+#player6, #score6 {
+    color:rgb(255,192,203, .5)
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: aliceblue;
+    border-top: 5px solid aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav li {
+    float: left;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.log li {
+    float: right;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+.main-text {
+    color: aliceblue;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 80px;
+}
+
+.main-game {
+    height: 100%;
+    padding-bottom: 36px;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:link {
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: black;
+}
+
+.nav a:hover {
+    color: aqua;
+}
+
+.spacer {
+    margin-bottom: 25px;
+}
+
+.regpopup-overlay{
+    /*Hides pop-up when there is no "active" class*/
+    visibility:hidden;
+    position:absolute;
+    background-color: aqua;
+    background-image: url("../images/gaming-pattern.png");
+    background-size: 462px auto;
+    background-repeat: repeat;
+    width:60%;
+    height:79%;
+    left:20%; 
+    top: 111px;
+  }
+
+  .regpopup-overlay.active{
+    /*displays pop-up when "active" class is present*/
+    visibility:visible;
+    text-align:center;
+  }
+
+  .regpopup-content {
+    /*Hides pop-up content when there is no "active" class */
+   visibility:hidden;
+   position: relative;
+  }
+
+  .regpopup-content.active {
+    /*Shows pop-up content when "active" class is present */
+    visibility:visible;
+    position: relative;
+  }
+
+  .logpopup-overlay{
+    /*Hides pop-up when there is no "active" class*/
+    visibility:hidden;
+    position:absolute;
+    background-color: aqua;
+    background-image: url("../images/gaming-pattern.png");
+    background-size: 462px auto;
+    background-repeat: repeat;
+    width:60%;
+    height:79%;
+    left:20%; 
+    top: 111px;
+  }
+
+  .logpopup-overlay.active{
+    /*displays pop-up when "active" class is present*/
+    visibility:visible;
+    text-align:center;
+  }
+
+  .logpopup-content {
+    /*Hides pop-up content when there is no "active" class */
+   visibility:hidden;
+   position: relative;
+  }
+
+  .logpopup-content.active {
+    /*Shows pop-up content when "active" class is present */
+    visibility:visible;
+    position: relative;
+  }
+
+.headtext {
+    margin-top: 20px;
+    font-family: headerFont;
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+}
+
+form p {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.formbutt {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 650px) {
+    .footer {
+        height: 50px;
+    }
+    .log li{
+        float: left;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 462px) {
+    .header {
+        height: 195px;
+    }
+    .games {
+        width: 100%;
+        overflow: scroll;
+    }
+}
+
+  @media screen and (max-width: 387px) {
+    .header {
+        height: 195px;
+    }
+    .games h2 {
+        font-size: 10px;
+    }
+    .scores h3 {
+        font-size: 10px;
+    }
+    .center {
+        font-size: 10px;
+    }
+    .footer {
+        height: 70px;
+    }
+}
