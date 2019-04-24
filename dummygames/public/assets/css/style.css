@@ -179,6 +179,7 @@ body, html {
     height:79%;
     left:20%; 
     top: 111px;
+    border-radius: 25px;
   }
 
   .regpopup-overlay.active{
@@ -211,6 +212,7 @@ body, html {
     height:79%;
     left:20%; 
     top: 111px;
+    border-radius: 25px;
   }
 
   .logpopup-overlay.active{
